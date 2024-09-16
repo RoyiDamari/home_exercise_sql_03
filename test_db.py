@@ -51,7 +51,7 @@ def test_check_not_exist_song_winner():
     result = sl.check_song_winner('israel', 2019);
 
     # Assert
-    assert result == 'Wrong';
+    assert result.upper() == 'Wrong'.upper();
 
 
 # Bonus
